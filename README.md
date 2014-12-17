@@ -4,9 +4,9 @@ A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* scrolling
 
 ##Requirements for jquery-smoothwheel
 
-[jQuery](https://github.com/jquery/jquery)
-[jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel/)
-[requestAnimationFrame polyfill for IE8 & IE9](https://gist.github.com/paulirish/1579671)
+- [jQuery](https://github.com/jquery/jquery)
+- [jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel/)
+- [requestAnimationFrame polyfill for IE8 & IE9](https://gist.github.com/paulirish/1579671)
 
 ##Usage
 ```js
