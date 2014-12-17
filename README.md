@@ -21,8 +21,8 @@ $(function () {
 
 | Behaviour           | Values              | Description                                                                                                                                          |
 | ------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `friction`     | `number`  | The amount of friction the site |
-| `deltaSteps` | `number`   | Specifies the scrolling step in pixel off one mousewheel step|
+| `friction`     | `number`  | The amount of friction the site experience. |
+| `deltaSteps` | `number`   | Specifies the scrolling step in pixel off one mousewheel step.|
 
 
 ##Browser and os detection
