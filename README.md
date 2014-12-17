@@ -34,3 +34,11 @@ $(function () {
     }
 });
 ```
+
+## Author
+
+Andreas Otten: [@aotten77][twitter]
+
+## License
+
+Licensed under [MIT][mit]. Enjoy.
