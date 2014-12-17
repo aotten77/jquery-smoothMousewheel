@@ -37,8 +37,8 @@ $(function () {
 
 ## Author
 
-Andreas Otten: [@aotten77][twitter]
+Andreas Otten: [@aotten77](https://twitter.com/aotten77)
 
 ## License
 
-Licensed under [MIT][mit]. Enjoy.
+Licensed under [MIT](http://opensource.org/licenses/mit-license.php). Enjoy.
