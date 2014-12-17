@@ -14,7 +14,7 @@
     }
 }(function ($) {
 	$.smoothwheel = function(options){
-		if(window.smoothwheel) return;
+		if(window.smoothwheel || navigator.platform.toLowerCase().indexOf('win') === -1 || navigator.userAgent.toLowerCase().indexOf('firefox') === 0 ) return;
 		window.smoothwheel = true;
 		var opt = $.extend({
 			friction: 0.2,
