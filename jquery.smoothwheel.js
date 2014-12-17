@@ -4,15 +4,7 @@
  * Copyright (c) 2014 Andreas Otten (aotten77)
  * Released under the MIT license
  */
-(function (factory) {
-    if ( typeof define === 'function' && define.amd ) {
-        // AMD. Register as an anonymous module.
-        define(['jquery'], factory);
-    } else {
-        // Browser globals
-        factory(jQuery);
-    }
-}(function ($) {
+(function ($) {
 	$.smoothwheel = function(options){
 		if(window.smoothwheel || navigator.platform.toLowerCase().indexOf('win') === -1 || navigator.userAgent.toLowerCase().indexOf('firefox') === 0 ) return;
 		window.smoothwheel = true;
@@ -60,4 +52,4 @@
 			return false;
 		});
 	};
-}));
+});
