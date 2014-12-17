@@ -1,6 +1,6 @@
 jQuery Smoothwheel Plugin
 =========================
-A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* scrolling by using requestAnimationFrame. It provides for a better user experience on e.g. scrolling animations. To see it in action at [joinmedia.de](http://joinmedia.de)).
+A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* scrolling by using requestAnimationFrame. It provides for a better user experience on e.g. scrolling animations. To see it in action at [joinmedia.de](http://joinmedia.de).
 
 ##Requirements for jquery-smoothwheel
 
