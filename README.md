@@ -1,6 +1,6 @@
 jQuery Smoothwheel Plugin
 =========================
-A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* scrolling by using requestAnimationFrame. It provides for a better user experience on e.g. scrolling animations. To see it in action at [joinmedia.de](http://joinmedia.de).
+A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* mouse scrolling by using requestAnimationFrame. It provides for a better user experience on e.g. scrolling animations. To see it in action at [joinmedia.de](http://joinmedia.de).
 
 ##Requirements for jquery-smoothwheel
 
@@ -11,7 +11,7 @@ A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* scrolling
 ##Usage
 ```js
 $(function () {
-    $.smoothwheel({
+    $.smoothMousewheel({
         // defaults
         friction: 0.2,
         deltaSteps: 100
@@ -30,7 +30,7 @@ Browsers that support *smooth* scrolling natively should be excluded. This condi
 ```js
 $(function () {
     if (navigator.platform.toLowerCase().indexOf('win') === 0 && navigator.userAgent.toLowerCase().indexOf('firefox') === -1) {
-        $.smoothwheel();
+        $.smoothMousewheel();
     }
 });
 ```
