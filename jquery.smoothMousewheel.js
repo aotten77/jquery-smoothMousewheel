@@ -1,5 +1,5 @@
 /*!
- * jQuery Smoothwheel Plugin v1.0
+ * jQuery SmoothMousewheel Plugin v1.0
  *
  * Copyright (c) 2014 Andreas Otten (aotten77)
  * Released under the MIT license
