@@ -1,4 +1,4 @@
-jQuery Smoothwheel Plugin
+jQuery SmoothMousewheel Plugin
 =========================
 A [jQuery](http://jquery.com/) plugin that adds cross-browser *smooth* mouse scrolling by using requestAnimationFrame. It provides for a better user experience on e.g. scrolling animations. To see it in action at [joinmedia.de](http://joinmedia.de).
 
