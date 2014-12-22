@@ -5,9 +5,9 @@
  * Released under the MIT license
  */
 (function ($) {
-	$.smoothwheel = function(options){
-		if(window.smoothwheel || navigator.platform.toLowerCase().indexOf('win') === -1 || navigator.userAgent.toLowerCase().indexOf('firefox') === 0 ) return;
-		window.smoothwheel = true;
+	$.smoothMousewheel = function(options){
+		if(window.smoothMousewheel || navigator.platform.toLowerCase().indexOf('win') === -1 || navigator.userAgent.toLowerCase().indexOf('firefox') === 0 ) return;
+		window.smoothMousewheel = true;
 		var opt = $.extend({
 			friction: 0.2,
 			deltaSteps: 100
